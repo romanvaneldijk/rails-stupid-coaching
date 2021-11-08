@@ -1,0 +1,12 @@
+<div class="container">
+  <h1>The answer</h1>
+  <h2>
+    Your question was: <em><%= @question %></em>
+  </h2>
+  <p>
+    The answer: <div class="output"> <%= @answer %> </div>
+  </p>
+  <div>
+    <%= link_to "Ask another question", ask_path %>
+  </div>
+</div>
